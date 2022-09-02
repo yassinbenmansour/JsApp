@@ -1,4 +1,4 @@
 # Login page
 
 
-<img src=./maquette.png">
+<img src="./maquette.png">
