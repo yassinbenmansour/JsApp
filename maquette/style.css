@@ -1,17 +1,53 @@
 #body {
-    background-color: rgb(223, 222, 222);
-    font-family: verdana;
+    background-color: rgb(196, 196, 196);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #parent_div {
-    background-color: white;
-    width: 500px;
-    height: 700px;
-    
+    margin-right: 480px;
+    margin-left: 480px;
+    background-color: rgb(255, 255, 255);
+
 }
 
-#ava {
-    float:left;
+#inputh3 {
+    margin: 40px ;
+    padding-top: 48px;
+}
+
+#img {
     width: 47px; 
     height : 45px;
+    padding: 40px;
+    margin-top: -40px;
+}
+
+#h6ad {
+    color: rgba(0, 136, 255, 0.748) ;
+    margin-left:105px;
+    margin-top: -80px;
+    font-size: 8px;
+}
+#user {
+    margin-left:105px;
+    margin-top: -15px;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+#pass1 {
+    margin: 40px;
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 30px;
+
+}
+
+#input {
+    padding: 8px;
+    width: 50%;
+    margin: 40px;
+    
+
 }
