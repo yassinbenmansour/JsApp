@@ -3,4 +3,4 @@
 
 # Responsive Bootstrap V5
 
-<img src="./Sign up.png">
+<img src="./Signup.png">
