@@ -19,3 +19,4 @@ btn.addEventListener('click' , function(){
 function getRandomNum (){
     return Math.floor(Math.random() * hex.length);
 }
+
