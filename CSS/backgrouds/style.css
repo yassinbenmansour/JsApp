@@ -1,0 +1,14 @@
+
+body{
+    color: rgb(255, 255, 255);
+    background-image: url("./img.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+
+    background-size: 1450px 1000px;
+}
+
+
+.div1 {
+    background-color: rgb(49, 242, 136);
+}
