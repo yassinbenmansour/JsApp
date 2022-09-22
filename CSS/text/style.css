@@ -5,8 +5,8 @@ div {
 
 h1 {
     text-align: center;
-    text-shadow: 10px;
-    color: brown;
+    text-shadow: 2px 2px red;
+    color: rgb(254, 254, 254);
     text-transform: uppercase;
 
 }
