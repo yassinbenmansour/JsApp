@@ -1,0 +1,10 @@
+/* Define standard variables and values for website */
+$bgcolor: rgb(99, 199, 233);
+$textcolor: rgb(7, 7, 113);
+$fontsize: 18px;
+
+#body {
+    background-color: $bgcolor;
+    color: $textcolor;
+    font-size: $fontsize;
+}
