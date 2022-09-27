@@ -1,1 +1,1 @@
-# Basic Front end skills by building projects using plain JavaScript without frameworks. 
+50 unique mini-projects to sharpen your HTML, CSS & JavaScript Bootstrap skills 
