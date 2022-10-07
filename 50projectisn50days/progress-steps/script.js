@@ -46,4 +46,8 @@ function update() {
         prev.disabled = false
         next.disabled = false
     }
+
+
+ 
+   
 }
