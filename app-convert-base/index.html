@@ -67,30 +67,33 @@
     <br>
     <h1>This simple tool allows you to convert a same number between its representations under different number systems.
     </h1>
+    <h1>choose base :</h1>
+    <span style="border: 2px solid green; color:cadetblue;">
+    <span> base 2</span>
+    <span> base 8</span>
+    <span> base 10</span>
+    <span> base 16</span>
+</span>
+    <br>
 
-
-    <h1>shoose </h1>
-
-    <span>
-        <select name="" id="">
-            <option value="">binary</option>
-            <option value="">octal</option>
-            <option value="">decimal</option>
-            <option value="">hexadecimal</option>
-        </select>
-
-    </span>
-
-    <span>to</span>
-    <span><select name="" id="">
-        <option value="">binary</option>
-        <option value="">octal</option>
-        <option value="">decimal</option>
-        <option value="">hexadecimal</option>
-    </select></span>
-
-
-
+    <br>
+    <br>
 </center>
+    
+
+   <span>
+   <label for="">Enter the value u want to convert to the base u shoose :</label>
+    <input type="number"  id="nbr" value="12" placeholder="number to convert">
+
+    <br>
+    <p id="result"></p>
+    <br>
+    <button onclick="convert();">Convert</button>
+   </span>
+
+
+
+
+<script src="./script.js"></script>
 </body>
 </html>
