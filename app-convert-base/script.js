@@ -12,6 +12,5 @@ function convert(){
     document.getElementById("result2").innerHTML="hexadecimal (base 16):" + result;
 
 
-
 }
 
