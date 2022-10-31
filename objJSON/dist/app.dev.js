@@ -1,11 +1,7 @@
 "use strict";
 
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
 function AfficherEnfants() {
-  var _person;
-
-  var person = (_person = {
+  var person = [{
     "personnne": {
       "id": "1100",
       "name": "yassine",
@@ -20,43 +16,41 @@ function AfficherEnfants() {
         "age": "15"
       }]
     }
-  }, _defineProperty(_person, "personnne", {
-    "id": "1101",
-    "name": "hamid",
-    "Enfants": [{
-      "prenom": "safae",
-      "age": "12"
-    }, {
-      "prenom": "ali",
-      "age": "2"
-    }, {
-      "prenom": "Amine",
-      "age": "15"
-    }]
-  }), _defineProperty(_person, "personnne", {
-    "id": "1102",
-    "name": "hossin",
-    "Enfants": [{
-      "prenom": "achraf",
-      "age": "32"
-    }, {
-      "prenom": "ahmed",
-      "age": "29"
-    }, {
-      "prenom": "Amine",
-      "age": "45"
-    }]
-  }), _person);
+  }, {
+    "personnne": {
+      "id": "1100",
+      "name": "hamid",
+      "Enfants": [{
+        "prenom": "ahmed",
+        "age": "37"
+      }, {
+        "prenom": "safae",
+        "age": "20"
+      }, {
+        "prenom": "narjiss",
+        "age": "25"
+      }]
+    }
+  }];
   var name = document.getElementById("p").value;
   var msg = "Lister les enfants :" + "</br>";
+  var existe;
 
-  if (person.personnne.name == name) {
-    for (var i = 0; i < 3; i++) {
-      msg += "nom : " + person.personnne.Enfants[i].prenom + " , " + "age : " + person.personnne.Enfants[i].age + "<br>";
+  for (var i = 0; i < person.length; i++) {
+    if (person[i].personnne.name == name) {
+      for (var j = 0; j < person[i].personnne.Enfants.length; j++) {
+        msg += "nom : " + person[i].personnne.Enfants[j].prenom + " , " + "age : " + person[i].personnne.Enfants[j].age + "<br>";
+      }
+
+      existe = 1;
     }
 
     document.getElementById("output").innerHTML = msg;
+  }
+
+  if (existe == 1) {
+    document.getElementById("output1").innerHTML = "Nom existe dans la base de donnees";
   } else {
-    document.write("error Nom n'existe pas");
+    document.getElementById("output1").innerHTML = "Nom n'existe pas dans la base de donnees";
   }
 }
