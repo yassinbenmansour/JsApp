@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculateur de salaire</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <h1>Calculateur de salaire</h1>
+    <form id="myForm" onsubmit="return false;">
+      <div>
+        <label for="grossSalary">Salaire brut&nbsp;:</label>
+        <input id="grossSalary" type="number">$
+      </div>
+      <div>
+        <label for="additionBonus">Bonus&nbsp;:</label>
+        <input id="additionBonus" type="checkbox">
+      </div>
+      <div>
+        <label for="additionAllowance">Allocation&nbsp;:</label>
+        <input id="additionAllowance" type="checkbox">
+      </div>
+      <div>
+        <label for="gender">Genre&nbsp;:</label>
+        <select id="gender">
+          <option value="M">Homme</option>
+          <option value="F">Femme</option>
+        </select>
+      </div>
+      <div>
+        <label for="dependents">Personnes à charge&nbsp;:</label>
+        <input id="dependents" type="number">
+      </div>
+      <div>
+        <input type="submit" value="Calculer" onclick="computeSalary()">
+        <input type="reset" value="Effacer" onclick="resetAll()">
+      </div>
+    </form>
+    <hr>
+    <p>Impôt sur le revenu&nbsp;: <span id="incomeTaxResult"></span></p>
+    <p>Assurance employé&nbsp;: <span id="employmentInsuranceResult"></span></p>
+    <p>Régime de pensions du Canada&nbsp;: <span id="canadaPensionPlanResult"></span></p>
+    <p>Suppléments&nbsp;: <span id="additionsResult"></span></p>
+    <p>Salaire net&nbsp;: <span id="finalSalaryResult"></span></p>
+    <script src="/Calculateur de salaire/script.js"></script>
+</body>
+</html>
